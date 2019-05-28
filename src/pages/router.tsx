@@ -1,6 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
+import Home from './home/home';
+import Projects from './projects/projects';
+import Contact from './contact/contact';
+
 function BasicRouter() {
   return (
     <Router>
@@ -24,30 +28,6 @@ function BasicRouter() {
         <Route path="/contact" component={Contact} />
       </div>
     </Router>
-  );
-}
-
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  );
-}
-
-function Projects() {
-  return (
-    <div>
-      <h2>About</h2>
-    </div>
-  );
-}
-
-function Contact() {
-  return (
-    <div>
-      <h2>Contact</h2>
-    </div>
   );
 }
 
