@@ -6,7 +6,7 @@ import Home from './home/home';
 import Projects from './projects/projects';
 import Contact from './contact/contact';
 
-function BasicRouter() {
+const BasicRouter: React.FC = () => {
   return (
     <Router>
       <Nav />
