@@ -4,7 +4,7 @@ interface pageProps {
     children: ReactNode
 }
 
-const Page = (props : pageProps) => {
+const Page: React.FC<pageProps> = (props) => {
     return (
     <div className="page">
         <h1>ALEX</h1>

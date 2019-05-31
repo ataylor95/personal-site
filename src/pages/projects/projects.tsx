@@ -2,7 +2,7 @@ import React from "react";
 
 import Page from '../../components/page/page';
 
-function Projects() {
+const Projects: React.FC = () => {
     return (
       <Page>
         <div>

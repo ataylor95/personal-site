@@ -2,7 +2,7 @@ import React from "react";
 
 import Page from '../../components/page/page';
 
-function Contact() {
+const Contact: React.FC = () => {
     return (
       <Page>
         <div>
