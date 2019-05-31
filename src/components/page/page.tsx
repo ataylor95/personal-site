@@ -8,9 +8,16 @@ interface pageProps {
 const Page: React.FC<pageProps> = (props) => {
     return (
     <div className="page">
-        <Nav />
-        <h1>ALEX</h1>
-        {props.children}
+        <header>
+            <Nav />
+        </header>
+        <main>
+            <h1>ALEX</h1>
+            {props.children}
+        </main>
+        <footer>
+            <p>Copyright etc goes down here</p>
+        </footer>
     </div>
     );
 }
