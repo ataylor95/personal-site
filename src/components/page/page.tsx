@@ -1,8 +1,8 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import Nav from '../nav/nav';
 
 interface pageProps {
-    children: ReactNode
+    children: React.ReactNode
 }
 
 const Page: React.FC<pageProps> = (props) => {
