@@ -5,6 +5,13 @@
         "logo title nav"
         "padding-left content padding-right"
         "footer footer footer";
+
+    @media (max-width: $screen-xs) {
+        grid-template-areas: 
+        "logo title nav"
+        "content content content"
+        "footer footer footer";
+    }
     grid-template-rows: auto 1fr auto;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
@@ -16,6 +23,7 @@
 
     &__header__title {
         grid-area: title;
+        text-align: center;
     }
 
     &__header__nav {
