@@ -1,3 +1,32 @@
 .page {
     background-color: $gray-base;
+    display: grid;
+    grid-template-areas: 
+        "logo title nav"
+        "padding-left content padding-right"
+        "footer footer footer";
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    height: calc(100vh - 10px);
+
+    &__header__logo {
+        grid-area: logo;
+    }
+
+    &__header__title {
+        grid-area: title;
+    }
+
+    &__header__nav {
+        grid-area: nav;
+    }
+
+    &__main {
+        grid-area: content;
+    }
+
+    &__footer {
+        grid-area: footer;
+    }
 }

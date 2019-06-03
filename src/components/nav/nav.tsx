@@ -15,8 +15,6 @@ const Nav: React.FC = () => {
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
-
-        <hr />
     </nav>
     );
 }
