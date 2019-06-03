@@ -3,13 +3,13 @@
     display: grid;
     grid-template-areas: 
         "logo title nav"
-        "padding-left content padding-right"
+        "content content content"
         "footer footer footer";
 
-    @media (max-width: $screen-xs) {
+    @media (min-width: $screen-xs) {
         grid-template-areas: 
         "logo title nav"
-        "content content content"
+        ". content ."
         "footer footer footer";
     }
     grid-template-rows: auto 1fr auto;
