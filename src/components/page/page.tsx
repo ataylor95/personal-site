@@ -14,7 +14,6 @@ const Page: React.FC<pageProps> = (props) => {
             <Nav />
         </div>
         <main className="page__main">
-            <h1>ALEX</h1>
             {props.children}
         </main>
         <footer className="page__footer">
