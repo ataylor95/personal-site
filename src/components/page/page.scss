@@ -10,8 +10,7 @@
 
     grid-template-rows: auto auto auto 3fr auto;
     grid-template-columns: 1fr;
-    grid-gap: 10px;
-    height: calc(100vh - 20px);
+    min-height: calc(100vh);
 
     &__header__logo {
         grid-area: logo;
@@ -45,11 +44,5 @@
 
         grid-template-rows: 1fr auto auto auto 1fr auto;
         grid-template-columns: 20% auto;
-        grid-gap: 10px;
-        height: calc(100vh - 20px);
-
-        &__footer {
-            grid-area: footer;
-        }
     }
 }
