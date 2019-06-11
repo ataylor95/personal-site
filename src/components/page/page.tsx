@@ -9,7 +9,12 @@ const Page: React.FC<pageProps> = (props) => {
     return (
     <div className="page">
         <div className="page__header__logo">Logo</div>
-        <div className="page__header__title">Alex Taylor</div>
+        <div className="page__header__content">
+            <h1>amltaylor</h1>
+            <h2>Full Stack Developer</h2>
+            <h3>London</h3>
+        
+        </div>
         <div className="page__header__nav">
             <Nav />
         </div>
