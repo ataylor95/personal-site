@@ -40,15 +40,16 @@
         "logo content"
         "title content"
         "nav content"
-        ". content";
+        ". content"
+        ". footer";
 
-        grid-template-rows: 1fr auto auto auto 1fr;
+        grid-template-rows: 1fr auto auto auto 1fr auto;
         grid-template-columns: 20% auto;
         grid-gap: 10px;
         height: calc(100vh - 20px);
 
         &__footer {
-            grid-area: content;
+            grid-area: footer;
         }
     }
 }
