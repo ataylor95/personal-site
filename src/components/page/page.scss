@@ -2,18 +2,14 @@
     background-color: $gray-base;
     display: grid;
     grid-template-areas: 
-        "logo title nav"
-        "content content content"
-        "footer footer footer";
+        "logo"
+        "title"
+        "nav"
+        "content"
+        "footer";
 
-    @media (min-width: $screen-xs) {
-        grid-template-areas: 
-        "logo title nav"
-        ". content ."
-        "footer footer footer";
-    }
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto 3fr auto;
+    grid-template-columns: 1fr;
     grid-gap: 10px;
     height: calc(100vh - 20px);
 
@@ -36,5 +32,23 @@
 
     &__footer {
         grid-area: footer;
+    }
+
+    @media (min-width: $screen-sm) {
+        grid-template-areas: 
+        ". content"
+        "logo content"
+        "title content"
+        "nav content"
+        ". content";
+
+        grid-template-rows: 1fr auto auto auto 1fr;
+        grid-template-columns: 20% auto;
+        grid-gap: 10px;
+        height: calc(100vh - 20px);
+
+        &__footer {
+            grid-area: content;
+        }
     }
 }
