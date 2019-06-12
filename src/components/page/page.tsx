@@ -13,7 +13,7 @@ const Page: React.FC<pageProps> = (props) => {
             <h1>amltaylor</h1>
             <h2>Full Stack Developer</h2>
             <h3>London</h3>
-        
+            <a href="mailto: abc@example.com">Email me</a>
         </div>
         <div className="page__header__nav">
             <Nav />

@@ -2,15 +2,15 @@ import React from "react";
 
 import Page from '../../components/page/page';
 
-const Contact: React.FC = () => {
+const Blog: React.FC = () => {
     return (
       <Page>
         <div>
-          <h2>Contact</h2>
-          <p>Call me maybe</p>
+          <h2>Blog</h2>
+          <p>Coming soon</p>
         </div>
       </Page>
     );
   }
 
-export default Contact;
+export default Blog;
