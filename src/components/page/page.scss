@@ -55,3 +55,14 @@
         }
     }
 }
+
+/* TODO: move this somewhere else or apply to all pages? */
+.home-page {
+    display: grid;
+    grid-template-columns: 1;
+
+    @media (min-width: $screen-sm) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
