@@ -1,0 +1,29 @@
+{
+    "projects": [
+        {
+            "name": "Example name 0",
+            "description": "An example simple description",
+            "link": "/"
+        },
+        {
+            "name": "Example name 1",
+            "description": "An example simple description",
+            "link": "/"
+        },
+        {
+            "name": "Example name 2",
+            "description": "An example simple description",
+            "link": "/"
+        },
+        {
+            "name": "Example name 3",
+            "description": "An example simple description",
+            "link": "/"
+        },
+        {
+            "name": "Example name 4",
+            "description": "An example simple description",
+            "link": "/"
+        }
+    ]
+}
