@@ -6,7 +6,8 @@ import ProjectCard from '../../components/project-card/project-card';
 const Home: React.FC = () => {
     return (
       <Page>
-        <div className="home-page">
+        <h1>Projects</h1>
+        <div className="home-page__container">
           <ProjectCard name="Example" description="An example description" link="/"></ProjectCard>
           <ProjectCard name="Example" description="An example description" link="/"></ProjectCard>
           <ProjectCard name="Example" description="An example description" link="/"></ProjectCard>
