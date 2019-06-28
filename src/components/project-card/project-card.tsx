@@ -7,7 +7,6 @@ interface cardProps {
 }
 
 const ProjectCard: React.FC<cardProps> = (props) => {
-    console.log((props.link.toUpperCase()));
     return (
         <section className="project-card">
             <div className="project-card__name"><p>{props.name}</p></div>
