@@ -1,4 +1,10 @@
 .project-card {
     display: block;
     width: 90%;
+    align-content: center;
+    padding: 2.5vh 2.5vw;
+
+    &__name {
+        font-size: 22px;
+    }
 }

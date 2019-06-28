@@ -9,9 +9,9 @@ interface cardProps {
 const ProjectCard: React.FC<cardProps> = (props) => {
     return (
         <section className="project-card">
-            <div className="project-card__name"><p>{props.name}</p></div>
-            <div className="project-card__description"><p>{props.description}</p></div>
-            <div className="project-card__link"><a href={props.link}>My link</a></div>
+          <div className="project-card__name"><p>{props.name}</p></div>
+          <div className="project-card__description"><p>{props.description}</p></div>
+          <div className="project-card__link"><a href={props.link}>My link</a></div>
         </section>
     );
 }

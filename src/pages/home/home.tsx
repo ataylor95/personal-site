@@ -12,7 +12,7 @@ const Home: React.FC = () => {
 
   return (
     <Page>
-      <h1>Projects</h1>
+      <h2 className="page__main__header">Projects.</h2>
       <div className="home-page__container">
         {projectCards}
       </div>

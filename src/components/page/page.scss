@@ -30,6 +30,17 @@
 
     &__main {
         grid-area: content;
+
+        &__header {
+            font-size: 36px;
+            margin-left: 2.5vw;
+            margin-top: 5vh;
+            margin-bottom: 0;
+
+            @media (min-width: $screen-sm) {
+                margin-top: 10vh;
+            }
+        }
     }
 
     &__footer {
