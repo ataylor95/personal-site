@@ -1,18 +1,19 @@
 import React from 'react';
 
 interface cardProps {
-    name: String,
-    description: String,
-    link: String
+    name: string,
+    description: string,
+    link: string
 }
 
 const ProjectCard: React.FC<cardProps> = (props) => {
+    console.log((props.link.toUpperCase()));
     return (
-        <div className="project-card">
-            <div className="project-card__name">{props.name}</div>
-            <div className="project-card__description">{props.description}</div>
-            <div className="project-card__link">{props.link}</div>
-        </div>
+        <section className="project-card">
+            <div className="project-card__name"><p>{props.name}</p></div>
+            <div className="project-card__description"><p>{props.description}</p></div>
+            <div className="project-card__link"><a href={props.link}>My link</a></div>
+        </section>
     );
 }
 
