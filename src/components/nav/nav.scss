@@ -1,0 +1,10 @@
+.nav {
+    list-style: none;
+
+    &__item {
+        margin-top: 30px;
+        a {
+            padding: 10px 0px;
+        }
+    }
+}
