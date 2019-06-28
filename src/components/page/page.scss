@@ -1,6 +1,7 @@
 .page {
     font-family: $default-font;
-    background-color: $gray-base;
+    //background-color: $gray-base;
+    background: linear-gradient(325deg, #efd5ff 0%, #515ada 100%);
     display: grid;
     grid-template-areas: 
         "logo"
@@ -54,6 +55,10 @@
             overflow-y: scroll;
         }
     }
+}
+
+h1, h2, h3, h4, p {
+    color: white;
 }
 
 /* TODO: move this somewhere else or apply to all pages? */
