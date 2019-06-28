@@ -1,8 +1,13 @@
 .project-card {
     display: block;
     width: 90%;
-    align-content: center;
-    padding: 2.5vh 2.5vw;
+    margin: 1vh 2.5vw 1vh 2.5vw;
+    text-decoration: none;
+    padding-bottom: 5vh;
+
+    @media (min-width: $screen-sm) {
+        padding-bottom: 10vh;
+    }
 
     &__name {
         font-size: 22px;
