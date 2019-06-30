@@ -1,28 +1,38 @@
 {
     "projects": [
         {
-            "name": "Example name 0",
-            "description": "An example simple description",
-            "link": "a"
+            "name": "Personal Site",
+            "description": "This very site! A simple site to list off some of my work and some space for a blog",
+            "technologies": [
+                "react",
+                "typescript",
+                "scss",
+                "s3"
+            ],
+            "link": "/"
         },
         {
             "name": "Example name 1",
             "description": "An example simple description",
-            "link": "/"
+            "technologies": [],
+            "link": "1"
         },
         {
             "name": "Example name 2",
             "description": "An example simple description",
+            "technologies": [],
             "link": "/"
         },
         {
             "name": "Example name 3",
             "description": "An example simple description",
+            "technologies": [],
             "link": "/"
         },
         {
             "name": "Example name 4",
             "description": "An example simple description",
+            "technologies": [],
             "link": "/"
         }
     ]
