@@ -1,5 +1,7 @@
 import React from 'react';
 
+import TechIcon from '../tech-icon/tech-icon';
+
 interface cardProps {
     name: string,
     description: string,
@@ -9,7 +11,7 @@ interface cardProps {
 
 const ProjectCard: React.FC<cardProps> = ({name, description, technologies, link}) => {
     const techIcons = technologies.map((tech) => {
-        return <div>{tech}</div>
+        return <TechIcon name={tech}></TechIcon>
     });
     return (
           <a className="project-card" href={link}>
