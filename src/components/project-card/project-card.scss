@@ -4,6 +4,8 @@
     margin: 1vh 2.5vw 1vh 2.5vw;
     text-decoration: none;
     padding-bottom: 5vh;
+    background: linear-gradient(145deg, #efd5ff 0%, #515ada 100%);
+    transition: all 0.4s ease-in-out 0s;
 
     @media (min-width: $screen-sm) {
         padding-bottom: 10vh;
@@ -11,5 +13,9 @@
 
     &__name {
         font-size: 22px;
+    }
+
+    &:hover {
+        transform: scale(1.07);
     }
 }
