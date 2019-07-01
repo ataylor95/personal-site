@@ -17,7 +17,7 @@ const ProjectCard: React.FC<cardProps> = ({name, description, technologies, link
           <a className="project-card" href={link}>
                 <div className="project-card__name"><p>{name}</p></div>
                 <div className="project-card__description"><p>{description}</p></div>
-                <div>{techIcons}</div>
+                <div className="project-card__icons">{techIcons}</div>
           </a>
         
     );

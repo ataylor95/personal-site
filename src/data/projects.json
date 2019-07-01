@@ -4,10 +4,10 @@
             "name": "Personal Site",
             "description": "This very site! A simple site to list off some of my work and some space for a blog",
             "technologies": [
-                "react",
+                "reactjs",
                 "typescript",
                 "scss",
-                "s3"
+                "aws"
             ],
             "link": "/"
         },

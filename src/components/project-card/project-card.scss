@@ -21,4 +21,9 @@
     &__name {
         font-size: 22px;
     }
+
+    &__icons {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
