@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// var images = require.context('../../data/images/logos', true); //yarn add @types/webpack-env 
 
 interface techIconProps {
     name: string
@@ -7,7 +6,7 @@ interface techIconProps {
 
 const TechIcon: React.FC<techIconProps> = ({name}) => {
     let [imgsrc, setImgsrc] = useState('');
-    import(/* webpackMode: "eager" */ `../../data/images/logos/${name}-icon.svg`).then((logo) => {
+    import(`../../data/images/logos/${name}-icon.svg`).then((logo) => {
         setImgsrc(logo.default);
     });
 
