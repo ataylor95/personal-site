@@ -11,7 +11,8 @@ interface cardProps {
 
 const ProjectCard: React.FC<cardProps> = ({name, description, technologies, link}) => {
     const techIcons = technologies.map((tech) => {
-        return <TechIcon name={tech}></TechIcon>
+        const key = name.toLowerCase().replace(' ', '') + '-' + tech;
+        return <TechIcon key={key} name={tech}></TechIcon>
     });
     return (
           <a className="project-card" href={link}>

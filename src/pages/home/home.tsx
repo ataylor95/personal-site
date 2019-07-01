@@ -6,8 +6,8 @@ import ProjectCard from '../../components/project-card/project-card';
 import projects from '../../data/projects.json';
 
 const Home: React.FC = () => {
-  let projectCards = projects.projects.map(project => {
-    return <ProjectCard name={project.name} description={project.description} technologies={project.technologies} link={project.link}></ProjectCard>
+  let projectCards = projects.projects.map((project, index) => {
+    return <ProjectCard key={'card-' + index} name={project.name} description={project.description} technologies={project.technologies} link={project.link}></ProjectCard>
   });
 
   return (
