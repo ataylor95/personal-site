@@ -72,6 +72,16 @@ h1, h2, h3, h4, p {
     color: white;
 }
 
+.social-media__container {
+    font-size: 30px;
+
+    &__text {
+        line-height: 0; 
+        font-size: 0;
+        color: transparent; 
+    }
+}
+
 /* TODO: move this somewhere else or apply to all pages? */
 .home-page__container {
     display: grid;
