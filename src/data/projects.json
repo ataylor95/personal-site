@@ -2,38 +2,64 @@
     "projects": [
         {
             "name": "Personal Site",
-            "description": "This very site! A simple site to list off some of my work and some space for a blog",
+            "description": "This very site! A simple site to list off some of my work and some space for a blog. Simple reactjs site hosted on Amazon S3.",
             "technologies": [
                 "reactjs",
                 "typescript",
                 "scss",
-                "aws"
+                "aws",
+                "yarn",
+                "webpack"
             ],
             "link": "/"
         },
         {
-            "name": "Example name 1",
-            "description": "An example simple description",
-            "technologies": [],
-            "link": "1"
+            "name": "Classroom Quiz Application",
+            "description": "An applicaion used by teachers/ lecturers to allow students to answer questions and display those responses in real time. Built with web sockets to achieve this.",
+            "technologies": [
+                "php",
+                "laravel",
+                "mysql",
+                "npmjs",
+                "scss"
+            ],
+            "link": "https://github.com/ataylor95/quiz-system"
         },
         {
-            "name": "Example name 2",
-            "description": "An example simple description",
-            "technologies": [],
-            "link": "/"
+            "name": "TalkTalk Web Component Library",
+            "description": "Part of the team at TalkTalk that built this project at TalkTalk. A library design to allow quick and easy reuse of visual components across multiple technology stacks. The speedcheck page is built entirely using web components.",
+            "technologies": [
+                "webcomponents",
+                "stenciljs",
+                "typescript",
+                "scss",
+                "azure",
+                "yarn",
+                "webpack"
+            ],
+            "link": "https://www.talktalk.co.uk/speedcheck"
         },
         {
-            "name": "Example name 3",
-            "description": "An example simple description",
-            "technologies": [],
-            "link": "/"
+            "name": "TalkTalk Sales CMS",
+            "description": "Using Contentful as a headless CMS I was part of the team that implemented the use of the CMS across TT's main site. The aim was to decrease the time to edit content and remove the need for developers to perform those changes.",
+            "technologies": [
+                "angular",
+                "scss",
+                "aws",
+                "yarn"
+            ],
+            "link": "https://www.talktalk.co.uk/shop"
         },
         {
-            "name": "Example name 4",
-            "description": "An example simple description",
-            "technologies": [],
-            "link": "/"
+            "name": "Cornwalls Cottages",
+            "description": "Lead developer of this project whilst working at Gloversure, a site for renting cottages. Noteworthy is the search page, built in React, so that users can search ineractively via a map or via normal search filters.",
+            "technologies": [
+                "php",
+                "reactjs",
+                "mysql",
+                "npmjs"
+            ],
+            "link": "https://www.cornwallscottages.co.uk/"
         }
     ]
 }
