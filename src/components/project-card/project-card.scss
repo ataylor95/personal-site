@@ -1,12 +1,13 @@
 .project-card {
     display: block;
-    width: 95%;
+    width: 94%;
     margin: 1vh 2.5vw 1vh 2.5vw;
     text-decoration: none;
     padding-bottom: 3vh;
     padding-left: 1vw;
     background-color: $gray;
     border-radius: 5px;
+    border: 1px $white solid;
     transition: all 0.4s ease-in-out 0s;
 
     @media (min-width: $screen-sm) {
