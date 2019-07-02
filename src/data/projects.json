@@ -27,7 +27,7 @@
         },
         {
             "name": "TalkTalk Web Component Library",
-            "description": "Part of the team at TalkTalk that built this project at TalkTalk. A library design to allow quick and easy reuse of visual components across multiple technology stacks. The speedcheck page is built entirely using web components.",
+            "description": "Part of the team that built this project at TalkTalk, a library designed to allow quick and easy reuse of visual components across multiple technology stacks. The speedcheck page is built entirely using web components.",
             "technologies": [
                 "webcomponents",
                 "stenciljs",
@@ -52,7 +52,7 @@
         },
         {
             "name": "Cornwalls Cottages",
-            "description": "Lead developer of this project whilst working at Gloversure, a site for renting cottages. Noteworthy is the search page, built in React, so that users can search ineractively via a map or via normal search filters.",
+            "description": "Main developer on this project whilst working at Gloversure, a site for renting cottages. Noteworthy is the search page, built in React, so that users can search ineractively via a map or via normal search filters.",
             "technologies": [
                 "php",
                 "reactjs",
