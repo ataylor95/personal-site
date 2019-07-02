@@ -15,7 +15,7 @@ const ProjectCard: React.FC<cardProps> = ({name, description, technologies, link
         return <TechIcon key={key} name={tech}></TechIcon>
     });
     return (
-          <a className="project-card" href={link}>
+          <a className="project-card" href={link} target="_blank" rel="noopener noreferrer">
                 <div className="project-card__name"><p>{name}</p></div>
                 <div className="project-card__description"><p>{description}</p></div>
                 <div className="project-card__icons">{techIcons}</div>
