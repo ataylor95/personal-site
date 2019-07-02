@@ -1,7 +1,6 @@
 .page {
     font-family: $default-font;
-    //background-color: $gray-base;
-    background: linear-gradient(325deg, #efd5ff 0%, #515ada 100%);
+    background-color: $black;
     display: grid;
     grid-template-areas: 
         "logo"
