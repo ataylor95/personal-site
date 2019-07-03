@@ -21,6 +21,17 @@
     &__header__content {
         grid-area: title;
         text-align: center;
+        h1 {
+            font-size: 50px;
+            margin-bottom: 0px;
+        }
+        h2 {
+            margin-top: 5px;
+            font-size: 30px;
+        }
+        h3 {
+            font-size: 25px;
+        }
     }
 
     &__header__nav {
@@ -31,7 +42,8 @@
         grid-area: content;
 
         &__header {
-            font-size: 50px;
+            font-size: 40px;
+            font-weight: 400;
             margin-left: 2.5vw;
             margin-top: 5vh;
             margin-bottom: 2vh;
@@ -69,6 +81,7 @@
 
 h1, h2, h3, h4, p {
     color: white;
+    font-weight: normal;
 }
 
 .social-media__container {
@@ -76,6 +89,7 @@ h1, h2, h3, h4, p {
 
     a {
         color: $white;
+        padding: 0 1vw 0 1vw;
     }
 
     &__text {

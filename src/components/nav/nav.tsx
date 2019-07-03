@@ -6,10 +6,10 @@ const Nav: React.FC = () => {
     <nav>
         <ul className="nav">
           <li className="nav__item">
-            <Link to="/">Projects</Link>
+            <Link to="/">View Projects</Link>
           </li>
           <li className="nav__item">
-            <Link to="/blog">Blog</Link>
+            <Link to="/blog">View Blog</Link>
           </li>
         </ul>
     </nav>
