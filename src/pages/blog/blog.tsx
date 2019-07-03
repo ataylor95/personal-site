@@ -5,10 +5,7 @@ import Page from '../../components/page/page';
 const Blog: React.FC = () => {
     return (
       <Page>
-        <div>
-          <h2>Blog</h2>
-          <p>Coming soon</p>
-        </div>
+        <h2 className="page__main__header">Blog - Coming Soon</h2>
       </Page>
     );
   }
