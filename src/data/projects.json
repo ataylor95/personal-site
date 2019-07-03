@@ -2,7 +2,7 @@
     "projects": [
         {
             "name": "Personal Site",
-            "description": "This very site! A simple site to list off some of my work and some space for a blog. Simple reactjs site hosted on Amazon S3.",
+            "description": "This very site! A simple site to list off some of my work and some space for a blog. React with TypeScript and hosted on Amazon S3.",
             "technologies": [
                 "reactjs",
                 "typescript",
@@ -15,7 +15,7 @@
         },
         {
             "name": "Classroom Quiz Application",
-            "description": "An applicaion used by teachers/ lecturers to allow students to answer questions and display those responses in real time. Built with web sockets to achieve this.",
+            "description": "A PHP Laravel application used by teachers and lecturers to allow students to answer questions and display those responses in real time. Web sockets were used to achieve this.",
             "technologies": [
                 "php",
                 "laravel",
@@ -27,7 +27,7 @@
         },
         {
             "name": "TalkTalk Web Component Library",
-            "description": "Part of the team that built this project at TalkTalk, a library designed to allow quick and easy reuse of visual components across multiple technology stacks. The speedcheck page is built entirely using web components.",
+            "description": "Part of the team that built this project at TalkTalk, a StencilJS based library designed to allow quick and easy reuse of UI components across multiple technology stacks. It allowed us to quickly build pages that conformed to our UI/UX standards. Click this card for the speedcheck page, which is built entirely using this library.",
             "technologies": [
                 "webcomponents",
                 "stenciljs",
@@ -41,8 +41,18 @@
             "link": "https://www.talktalk.co.uk/speedcheck"
         },
         {
+            "name": "TalkTalk Online Integration with Azure",
+            "description": "Lead the migration away from AWS to Azure for the Online Department in TalkTalk. In particular it involved designing and building the pipelines and hosting solution for the new Web Components and Micro Frontend Architecture.",
+            "technologies": [
+                "azure",
+                "azure-pipelines",
+                "yarn"
+            ],
+            "link": "http://www.talktalk.co.uk/shop"
+        },
+        {
             "name": "TalkTalk Sales CMS",
-            "description": "Using Contentful as a headless CMS I was part of the team that implemented the use of the CMS across TT's main site. The aim was to decrease the time to edit content and remove the need for developers to perform those changes.",
+            "description": "Using Contentful as a headless CMS I was part of the team that implemented the use of the CMS across TT's main site, an AngularJS application. The aim was to decrease the time to edit content and remove the need for developers to perform those changes.",
             "technologies": [
                 "angular",
                 "scss",
@@ -54,7 +64,7 @@
         },
         {
             "name": "Cornwalls Cottages",
-            "description": "Main developer on this project whilst working at Gloversure, a site for renting cottages. Noteworthy is the search page, built in React, so that users can search ineractively via a map or via normal search filters.",
+            "description": "Main developer on this project whilst working at Gloversure, a site for renting cottages. Noteworthy is the search page, built in React, so that users can search ineractively via a map or via normal search filters. The remainder of the site is built with PHP.",
             "technologies": [
                 "php",
                 "reactjs",

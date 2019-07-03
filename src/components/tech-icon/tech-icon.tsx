@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 
 interface techIconProps {
-    key: string,
     name: string
 }
 
-const TechIcon: React.FC<techIconProps> = ({key, name}) => {
+const TechIcon: React.FC<techIconProps> = ({name}) => {
     let [imgsrc, setImgsrc] = useState('');
     import(`../../data/images/logos/${name}-icon.svg`).then((logo) => {
         setImgsrc(logo.default);
