@@ -4,11 +4,11 @@
             "name": "Personal Site",
             "description": "This very site! A simple site to list off some of my work and some space for a blog. React with TypeScript and hosted on Amazon S3.",
             "technologies": [
-                "reactjs",
-                "typescript",
-                "scss",
-                "aws",
-                "yarn",
+                "React",
+                "TypeScript",
+                "SCSS",
+                "AWS",
+                "Yarn",
                 "webpack"
             ],
             "link": "http://amltaylor.co.uk"
@@ -17,11 +17,11 @@
             "name": "Classroom Quiz Application",
             "description": "A PHP Laravel application used by teachers and lecturers to allow students to answer questions and display those responses in real time. Web sockets were used to achieve this.",
             "technologies": [
-                "php",
-                "laravel",
-                "mysql",
-                "npmjs",
-                "scss"
+                "PHP",
+                "Laravel",
+                "MySQL",
+                "npm",
+                "SCSS"
             ],
             "link": "https://github.com/ataylor95/quiz-system"
         },
@@ -29,12 +29,12 @@
             "name": "TalkTalk Web Component Library",
             "description": "Part of the team that built this project at TalkTalk, a StencilJS based library designed to allow quick and easy reuse of UI components across multiple technology stacks. It allowed us to quickly build pages that conformed to our UI/UX standards. We also used Storybook to display and document this library. Click this card for the speedcheck page, which is built entirely using this library.",
             "technologies": [
-                "webcomponents",
-                "stenciljs",
-                "storybook",
-                "typescript",
-                "scss",
-                "yarn",
+                "Web Components",
+                "Stencil",
+                "Storybook",
+                "TypeScript",
+                "SCSS",
+                "Yarn",
                 "webpack"
             ],
             "link": "https://www.talktalk.co.uk/speedcheck"
@@ -43,9 +43,9 @@
             "name": "TalkTalk Online Integration with Azure",
             "description": "Lead the migration away from AWS to Azure for the Online Department in TalkTalk. In particular it involved designing and building the pipelines and hosting solution for the new Web Components and Micro Frontend Architecture.",
             "technologies": [
-                "azure",
-                "azure-pipelines",
-                "yarn"
+                "Azure",
+                "Azure Pipelines",
+                "Yarn"
             ],
             "link": "http://www.talktalk.co.uk/shop"
         },
@@ -53,11 +53,11 @@
             "name": "TalkTalk Sales CMS",
             "description": "Using Contentful as a headless CMS I was part of the team that implemented the use of the CMS across TT's main site, an AngularJS application. The aim was to decrease the time to edit content and remove the need for developers to perform those changes.",
             "technologies": [
-                "angular",
-                "scss",
-                "contentful",
-                "aws",
-                "yarn"
+                "Angular",
+                "SCSS",
+                "Contentful",
+                "AWS",
+                "Yarn"
             ],
             "link": "https://www.talktalk.co.uk/shop"
         },
@@ -65,10 +65,10 @@
             "name": "Cornwalls Cottages",
             "description": "Main developer on this project whilst working at Gloversure, a site for renting cottages. Noteworthy is the search page, built in React, so that users can search ineractively via a map or via normal search filters. The remainder of the site is built with PHP.",
             "technologies": [
-                "php",
-                "reactjs",
-                "mysql",
-                "npmjs"
+                "PHP",
+                "React",
+                "MySQL",
+                "npm"
             ],
             "link": "https://www.cornwallscottages.co.uk/"
         }
