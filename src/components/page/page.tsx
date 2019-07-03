@@ -12,7 +12,7 @@ const Page: React.FC<pageProps> = (props) => {
         <div className="page__header__content">
             <h1>Alex Taylor</h1>
             <h2>Full Stack Developer</h2>
-            <h3>London</h3>
+            <h3 className="icon-location">London</h3>
             <div className="social-media__container">
                 <a className="icon-mail-alt" href="mailto: abc@example.com"><span className="social-media__container__text">Email me</span></a>
                 <a className="icon-linkedin-squared" href="https://www.linkedin.com/in/amltaylor/" target="_blank" rel="noopener noreferrer">
