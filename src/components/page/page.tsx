@@ -14,7 +14,7 @@ const Page: React.FC<pageProps> = (props) => {
             <h2>Full Stack Developer</h2>
             <h3 className="icon-location">London</h3>
             <div className="social-media__container">
-                <a className="icon-mail-alt" href="mailto: abc@example.com"><span className="social-media__container__text">Email me</span></a>
+                <a className="icon-mail-alt" href="mailto: at95eng@gmail.com"><span className="social-media__container__text">Email me</span></a>
                 <a className="icon-linkedin-squared" href="https://www.linkedin.com/in/amltaylor/" target="_blank" rel="noopener noreferrer">
                     <span className="social-media__container__text">LinkedIn</span>
                 </a>
