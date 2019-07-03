@@ -27,14 +27,13 @@
         },
         {
             "name": "TalkTalk Web Component Library",
-            "description": "Part of the team that built this project at TalkTalk, a StencilJS based library designed to allow quick and easy reuse of UI components across multiple technology stacks. It allowed us to quickly build pages that conformed to our UI/UX standards. Click this card for the speedcheck page, which is built entirely using this library.",
+            "description": "Part of the team that built this project at TalkTalk, a StencilJS based library designed to allow quick and easy reuse of UI components across multiple technology stacks. It allowed us to quickly build pages that conformed to our UI/UX standards. We also used Storybook to display and document this library. Click this card for the speedcheck page, which is built entirely using this library.",
             "technologies": [
                 "webcomponents",
                 "stenciljs",
                 "storybook",
                 "typescript",
                 "scss",
-                "azure",
                 "yarn",
                 "webpack"
             ],
