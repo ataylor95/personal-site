@@ -7,7 +7,7 @@
     padding-left: 1vw;
     background-color: $gray;
     border-radius: 5px;
-    border: 1px $white solid;
+    box-shadow: 3px 3px 10px 0px $blue;
     transition: all 0.4s ease-in-out 0s;
 
     @media (min-width: $screen-sm) {
@@ -16,11 +16,16 @@
 
         &:hover {
             transform: scale(1.07);
+            box-shadow: none;
         }
     }
 
     &__name {
-        font-size: 22px;
+        font-size: 24px;
+    }
+
+    &__description {
+        font-size: 18px;
     }
 
     &__icons {
