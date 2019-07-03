@@ -11,7 +11,7 @@
                 "yarn",
                 "webpack"
             ],
-            "link": "/"
+            "link": "http://amltaylor.co.uk"
         },
         {
             "name": "Classroom Quiz Application",
@@ -31,6 +31,7 @@
             "technologies": [
                 "webcomponents",
                 "stenciljs",
+                "storybook",
                 "typescript",
                 "scss",
                 "azure",
@@ -45,6 +46,7 @@
             "technologies": [
                 "angular",
                 "scss",
+                "contentful",
                 "aws",
                 "yarn"
             ],
