@@ -14,18 +14,6 @@
             "link": "http://amltaylor.co.uk"
         },
         {
-            "name": "Classroom Quiz Application",
-            "description": "A PHP Laravel application used by teachers and lecturers to allow students to answer questions and display those responses in real time. Web sockets were used to achieve this.",
-            "technologies": [
-                "PHP",
-                "Laravel",
-                "MySQL",
-                "npm",
-                "SCSS"
-            ],
-            "link": "https://github.com/ataylor95/quiz-system"
-        },
-        {
             "name": "TalkTalk Web Component Library",
             "description": "Part of the team that built this project at TalkTalk, a StencilJS based library designed to allow quick and easy reuse of UI components across multiple technology stacks. It allowed us to quickly build pages that conformed to our UI/UX standards. We also used Storybook to display and document this library. Click this card for the speedcheck page, which is built entirely using this library.",
             "technologies": [
@@ -60,6 +48,18 @@
                 "Yarn"
             ],
             "link": "https://www.talktalk.co.uk/shop"
+        },
+        {
+            "name": "Classroom Quiz Application",
+            "description": "A PHP Laravel application used by teachers and lecturers to allow students to answer questions and display those responses in real time. Web sockets were used to achieve this.",
+            "technologies": [
+                "PHP",
+                "Laravel",
+                "MySQL",
+                "npm",
+                "SCSS"
+            ],
+            "link": "https://github.com/ataylor95/quiz-system"
         },
         {
             "name": "Cornwalls Cottages",
