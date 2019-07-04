@@ -2,7 +2,7 @@
     "projects": [
         {
             "name": "Personal Site",
-            "description": "This very site! A simple site to list off some of my work and some space for a blog. Built with React on top of TypeScipt it was primarily designed to be fast and accessible. To acheive this a minimalist approach was taken, with few images, and what images there are being SVGs. Other speed gains are achieved by using Cloudfront and using as few packages as npm possible.",
+            "description": "This very site! A simple site to list off some of my work and some space for a blog. Built with React on top of TypeScipt it was primarily designed to be fast and accessible. To acheive this a minimalist approach was taken, with few images, and what images there are being SVG's. Other speed gains are achieved by using Cloudfront and using as few npm packages as possible.",
             "technologies": [
                 "React",
                 "TypeScript",
