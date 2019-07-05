@@ -2,7 +2,7 @@
     "projects": [
         {
             "name": "Personal Site",
-            "description": "This very site! A simple site to list off some of my work and some space for a blog. Built with React on top of TypeScipt it was primarily designed to be fast and accessible. To acheive this a minimalist approach was taken, with few images, and what images there are being SVG's. Other speed gains are achieved by using Cloudfront and using as few npm packages as possible.",
+            "description": "This very site! A simple site to list off some of my work and some space for a blog. Built with React on top of TypeScipt it was primarily designed to be fast and accessible. To acheive this a minimalist approach was taken, with few images, and what images there are being SVG's. Other speed gains are achieved by using Cloudfront and using as few external dependencies as possible.",
             "technologies": [
                 "React",
                 "TypeScript",
@@ -26,6 +26,16 @@
                 "webpack"
             ],
             "link": "https://www.talktalk.co.uk/speedcheck"
+        },
+        {
+            "name": "Contentful Meetup Talk",
+            "description": "A colleague and I gave a talk at a meetup for Contentful developers. Contentful is a headless CMS used for content on the TalkTalk shop site. The talk was about how we built our Web Components to pull data from the CMS and therefore allowed us to build entire sites/ applications that conformed to our design standards in very little time. Click for the video.",
+            "technologies": [
+                "Contentful",
+                "Web Components",
+                "Stencil"
+            ],
+            "link": "https://www.youtube.com/watch?v=4wxCQowDEs4"
         },
         {
             "name": "TalkTalk Online Integration with Azure",
