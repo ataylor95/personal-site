@@ -3,12 +3,11 @@
     width: 94%;
     margin: 1vh 2.5vw 1vh 2.5vw;
     text-decoration: none;
-    padding-bottom: 2vh;
-    padding-left: 1vw;
+    padding: 0 1vw 2vh 1vw;
     background-color: $gray;
     border-radius: 5px;
-    box-shadow: 3px 3px 10px 0px $blue;
     transition: all 0.4s ease-in-out 0s;
+    text-align: justify;
 
     @media (min-width: $screen-sm) {
         padding-right: 1vw;
