@@ -15,7 +15,7 @@
         },
         {
             "name": "TalkTalk Web Component Library",
-            "description": "Part of the team that built this project at TalkTalk, a StencilJS based library designed to allow quick and easy reuse of UI components across multiple technology stacks. It allowed us to quickly build pages that conformed to our UI/UX standards. We also used Storybook to display and document this library. Click this card for the speedcheck page, which is built entirely using this library.",
+            "description": "Part of the team that built this project at TalkTalk, it is a StencilJS based library designed to allow quick and easy reuse of UI components across multiple technology stacks. It allowed us to quickly build pages that conformed to our UI/UX standards and was open to server side rendering in the future. We also used Storybook to display and document this library. Click this card for the speedcheck page, which is built entirely using this library.",
             "technologies": [
                 "Web Components",
                 "Stencil",
@@ -29,7 +29,7 @@
         },
         {
             "name": "Contentful Meetup Talk",
-            "description": "A colleague and I gave a talk at a meetup for Contentful developers. Contentful is a headless CMS used for content on the TalkTalk shop site. The talk was about how we built our Web Components to pull data from the CMS and therefore allowed us to build entire sites/ applications that conformed to our design standards in very little time. Click for the video.",
+            "description": "A colleague and I gave a talk at a meetup for Contentful developers, Contentful is a headless CMS used for content on the TalkTalk shop site. The talk was about how we built our Web Components to pull data from the CMS. This therefore allowed us to build entire sites/ applications that conformed to our design standards in very little time all through the CMS interface, dramatically reducing developer time needed. Click for the video.",
             "technologies": [
                 "Contentful",
                 "Web Components",
@@ -49,7 +49,7 @@
         },
         {
             "name": "TalkTalk Sales CMS",
-            "description": "Using Contentful as a headless CMS I was part of the team that implemented the use of the CMS across TT's main site, an AngularJS application. The aim was to decrease the time to edit content and remove the need for developers to perform those changes.",
+            "description": "Using Contentful as a headless CMS I was part of the team that implemented the use of the CMS across TT's main site, an AngularJS application. The aim was to decrease the time to edit content and remove the need for developers to perform those changes. For example, we reduced making copy changes from 2 weeks to 2 minutes.",
             "technologies": [
                 "Angular",
                 "SCSS",
@@ -61,7 +61,7 @@
         },
         {
             "name": "Classroom Quiz Application",
-            "description": "A PHP Laravel application used by teachers and lecturers to allow students to answer questions and display those responses in real time. Web sockets were used to achieve this.",
+            "description": "A PHP Laravel application used by teachers and lecturers to allow students to answer questions and display those responses in real time. A lecturer could upload a PDF of slides, and then embed questions in between those slides. Students would connect to the application via a session password on their devices and answer these questions, which the lecturer could display the results of immediately. Web sockets were used to achieve this real time communication.",
             "technologies": [
                 "PHP",
                 "Laravel",
