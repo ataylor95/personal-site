@@ -3,8 +3,6 @@
     grid-template-columns: 1;
 
     @media (min-width: $screen-lg) {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
         margin-right: 7vw;
     }
 }
