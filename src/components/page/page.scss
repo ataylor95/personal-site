@@ -76,7 +76,7 @@ h1, h2, h3, h4, p {
         max-height: calc(100vh);
 
         grid-template-rows: 1fr auto auto auto 1fr auto;
-        grid-template-columns: 20% auto;
+        grid-template-columns: 25% auto;
 
         &__main {
             grid-area: content;
