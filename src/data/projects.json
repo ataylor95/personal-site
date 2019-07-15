@@ -2,7 +2,7 @@
     "projects": [
         {
             "name": "Personal Site",
-            "description": "This site! A place to list off some of my work. Built with React on top of TypeScipt it was primarily designed to be fast and accessible, and scores well on Lighthouse and Googles Mobile-Friendly test. To acheive this, a minimalist approach was taken. With few images, and what images there are being SVG's to reduce page size. Other speed gains are achieved by using Cloudfront as the CDN and using as few external dependencies as possible.",
+            "description": "This site! A place to list off some of my work. Built with React on top of TypeScript it was primarily designed to be fast and accessible, and scores well on Lighthouse and Googles Mobile-Friendly test. To achieve this, a minimalist approach was taken. With few images, and what images there are being SVG's to reduce page size. Other speed gains are achieved by using Cloudfront as the CDN and using as few external dependencies as possible.",
             "technologies": [
                 "React",
                 "TypeScript",
