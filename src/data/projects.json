@@ -73,14 +73,14 @@
         },
         {
             "name": "Cornwalls Cottages",
-            "description": "Main developer on this project whilst working at Gloversure, a site for renting cottages. Noteworthy is the search page, built in React, so that users can search ineractively via a map or via normal search filters. The remainder of the site is built with PHP.",
+            "description": "Main developer on this project whilst working at Gloversure (2015-2016), a site for renting cottages. Noteworthy is the search page, built in React, so that users can search ineractively via a map or via normal search filters. The remainder of the site is built with PHP.",
             "technologies": [
                 "PHP",
                 "React",
                 "MySQL",
                 "npm"
             ],
-            "link": "https://www.cornwallscottages.co.uk/"
+            "link": "https://gloversure.co.uk/portfolio/cornwalls-cottages"
         }
     ]
 }
